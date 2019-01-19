@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.wxz.learn.dao.EmpMapper" >
+    <select id="getStuById"  resultType="com.wxz.learn.bean.Employee">
+        select * from emp where id = ?
+    </select>
+</mapper>
